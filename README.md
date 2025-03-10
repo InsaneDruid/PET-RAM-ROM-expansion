@@ -73,11 +73,9 @@ The PET RAM & ROM though can be powered directly from the 5V available on the se
 ## The printable Backshell
 To protect the backside of the board, and cover the power connector on the tape port, 3d printable parts are available.
 
-![Back shell render](https://github.com/InsaneDruid/pet-ram-rom-expansion/blob/main/images/pet-ram-&-rom-expansion_backshell_render.png)
 [Printable back shell on printables.com](https://www.printables.com/model/1219181-cbm-pet-2001-expansion-cover/ "Printable back shell on printables.com") 
 
-![Power connector housing render](https://github.com/InsaneDruid/pet-ram-rom-expansion/blob/main/images/power_connector_housing_render.png)
-[Printable power connector housing on printables.com](https://www.printables.com/model/1219181-cbm-pet-2001-expansion-cover/ "Printable tape connector housing on printables.com")   
+[Printable power connector housing on printables.com](https://www.printables.com/model/1219232-commodore-petc64-tape-connector-cover/ "Printable tape connector housing on printables.com")   
 
 
 ## The License
