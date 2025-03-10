@@ -1,0 +1,51 @@
+Name            PET-RAM-&-ROM-EXPANSION;
+Partno          GAL0001;
+Revision        01;
+Date            2024-08-19;
+Designer        InsaneDruid;
+Company         -;
+Location        None;
+Assembly        None;
+Device          g16v8as;
+
+/*
+ * INPUT: SIGNALS  
+ */
+ 
+Pin 13 = !SEL1;
+Pin  1 = !SEL2;
+Pin  2 = !SEL3; 
+Pin  3 = !SEL4;
+Pin  4 = !SEL5;
+Pin  5 = !SEL6;
+Pin  6 = !SEL7;
+Pin  7 = !SEL9;
+Pin  8 = !SELA;
+Pin  9 = !SELB;
+Pin 11 = PHI2;
+Pin 12 = RWE;
+
+
+/*
+ * Outputs: 
+ *
+ */
+
+Pin 14 = A14;
+Pin 15 = A13;
+Pin 16 = A12;
+Pin 17 = !WE;
+Pin 18 = !CSRAM;
+Pin 19 = !CSROM;
+
+
+/*
+ * Logic:  
+ */
+
+CSROM = SEL9 # SELA # SELB;
+CSRAM = SEL1 # SEL2 # SEL3 # SEL4 # SEL5 # SEL6 # SEL7;
+WE    = PHI2 & !RWE;
+A12   = SEL1 # SEL3 # SEL5 # SEL7;
+A13   = SEL2 # SEL3 # SEL6 # SEL7;
+A14   = SEL4 # SEL5 # SEL6 # SEL7;

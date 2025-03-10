@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pet-ram-&-rom-expansion_lib_fp")(type "KiCad")(uri "${KIPRJMOD}/pet-ram-&-rom-expansion_lib_fp.pretty")(options "")(descr ""))
+)
